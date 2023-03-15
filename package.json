@@ -50,7 +50,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.5",
     "@heroicons/react": "^2.0.13",
-    "applet-design-utility": "^0.0.4",
+    "applet-design-utility": "^0.0.5",
     "clsx": "^1.2.1",
     "react-hook-form": "^7.43.5"
   }

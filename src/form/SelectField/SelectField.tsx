@@ -17,7 +17,7 @@ export const SelectField = ({
     <div className="relative inline-block w-full text-gray-700">
       <select
         {...register(name, validation)}
-        className="appearance-none h-10 w-full px-4 py-2 pr-8 rounded-md bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
+        className="select w-full"
         {...rest}
       >
         {placeholder && (

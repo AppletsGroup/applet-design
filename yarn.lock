@@ -3595,10 +3595,10 @@ app-root-dir@^1.0.2:
   resolved "https://registry.yarnpkg.com/app-root-dir/-/app-root-dir-1.0.2.tgz#38187ec2dea7577fff033ffcb12172692ff6e118"
   integrity sha512-jlpIfsOoNoafl92Sz//64uQHGSyMrD2vYG5d8o2a4qGvyNCvXur7bzIsWtAC/6flI2RYAp3kv8rsfBtaLm7w0g==
 
-applet-design-utility@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/applet-design-utility/-/applet-design-utility-0.0.4.tgz#e57c76a31c42d81d5d1ee15be73f82f0b28e1e25"
-  integrity sha512-eF1XucRydpJ9MC9xOghAkKCFhninpIEtnW8jcn3Xsv9seM/KmZRFqcavDwFmvAwGpamEjrMx0fQLyZbERSIr1w==
+applet-design-utility@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/applet-design-utility/-/applet-design-utility-0.0.5.tgz#06092eff04d22b82fcce0af388160bd74595a0d5"
+  integrity sha512-EbtSNdrJUZJ0lVfToMo+wK9K+7U3Rl41509Sh5AQk8uTO32DIs1VSyZ3CyIWIP31DIbdZeBMOSGfko71VF+h9g==
 
 "aproba@^1.0.3 || ^2.0.0":
   version "2.0.0"

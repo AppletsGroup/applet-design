@@ -1,5 +1,5 @@
 import { FieldError } from '../FieldError/FieldError'
-import Form from '../Form/Form'
+import { Form } from '../Form/Form'
 
 import { SelectField } from './SelectField'
 
