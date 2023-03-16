@@ -4,10 +4,11 @@ import { useForm, FormProvider, SubmitHandler } from 'react-hook-form'
 interface FormProps {
   onSubmit: SubmitHandler<any>
   children: ReactNode
+  formMethods?: ReturnType<typeof useForm>
 }
 
-export const Form: FC<FormProps> = ({ onSubmit, children }) => {
-  const methods = useForm()
+export const Form: FC<FormProps> = ({ onSubmit, children, formMethods }) => {
+  const methods = formMethods ?? useForm()
 
   return (
     <FormProvider {...methods}>

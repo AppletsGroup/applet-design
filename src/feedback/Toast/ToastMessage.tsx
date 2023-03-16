@@ -74,7 +74,7 @@ export default function ToastMessage({
     >
       <div className="flex flex-row p-2 flex-no-wrap w-full">
         <div className="flex flex-col flex-no-wrap px-1 w-full">
-          <div className="flex my-auto font-bold select-none">{Var.name}</div>
+          <div className="flex my-auto font-bold select-none text-slate-900">{Var.name}</div>
           <p
             className={clsx(
               '-mt-0.5 my-auto break-all flex',
