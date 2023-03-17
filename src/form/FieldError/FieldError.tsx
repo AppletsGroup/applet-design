@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/prefer-nullish-coalescing */
 import { useFormContext, FieldError as ErrorField } from 'react-hook-form'
 
 interface FieldErrorProps {
@@ -15,25 +16,25 @@ export const FieldError = ({ name, className }: FieldErrorProps) => {
 
     switch (error.type) {
       case 'required':
-        message = message ?? 'This field is required'
+        message = message || 'This field is required'
         break
       case 'minLength':
-        message = message ?? 'The value is too short'
+        message = message || 'The value is too short'
         break
       case 'maxLength':
-        message = message ?? 'The value is too long'
+        message = message || 'The value is too long'
         break
       case 'pattern':
-        message = message ?? 'Invalid input'
+        message = message || 'Invalid input'
         break
       case 'min':
-        message = message ?? 'The value is too low'
+        message = message || 'The value is too low'
         break
       case 'max':
-        message = message ?? 'The value is too high'
+        message = message || 'The value is too high'
         break
       case 'validate':
-        message = message ?? 'Invalid input'
+        message = message || 'Invalid input'
         break
       default:
         break
