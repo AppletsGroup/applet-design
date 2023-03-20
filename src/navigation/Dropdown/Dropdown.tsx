@@ -8,7 +8,7 @@ export const Dropdown = ({ overlay, children }) => {
     <Menu
       as="div"
       className="relative inline-block text-left">
-      <Menu.Button className="inline-flex w-full justify-center bg-white px-2 py-1 text-gray-900 focus:outline-none">
+      <Menu.Button className="inline-flex w-full justify-center px-2 py-1 focus:outline-none">
         {children}
       </Menu.Button>
 
