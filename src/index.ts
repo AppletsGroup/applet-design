@@ -4,6 +4,7 @@ export * from './Button/Button'
 export * from './form/InputField/InputField'
 export * from './form/SelectField/SelectField'
 export * from './form/TextAreaField/TextAreaField'
+export * from './form/CheckboxField/CheckboxField'
 export * from './form/FieldError/FieldError'
 export * from './form/Form/Form'
 
