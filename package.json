@@ -1,6 +1,6 @@
 {
   "name": "applet-design",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "ui design for applets",
   "main": "dist/index.mjs",
   "typings": "dist/index.d.ts",
