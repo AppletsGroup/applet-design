@@ -1,5 +1,10 @@
 export * from './Button/Button'
 
+// data entry
+export * from './DataEntry/Label/Label'
+export * from './DataEntry/Input/Input'
+export * from './DataEntry/TextArea/TextArea'
+
 // form
 export * from './form/InputField/InputField'
 export * from './form/SelectField/SelectField'
