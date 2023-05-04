@@ -9,7 +9,18 @@ interface FieldErrorProps {
 export const FieldError = ({ name, className }: FieldErrorProps) => {
   const { formState: { errors } } = useFormContext()
 
-  const error = errors[name] as ErrorField | undefined
+  let error: ErrorField | undefined
+  const fieldNames = name.split('.')
+
+  for (const fieldName of fieldNames) {
+    if (error) {
+      error = error[fieldName]
+    } else if (!error && errors[fieldName]) {
+      error = errors[fieldName] as ErrorField
+    } else {
+      break
+    }
+  }
 
   if (error) {
     let message = error.message
@@ -41,7 +52,7 @@ export const FieldError = ({ name, className }: FieldErrorProps) => {
     }
 
     return (
-      <div className={className}>
+      <div className={`text-red-500 ${className}`}>
         {message}
       </div>
     )
