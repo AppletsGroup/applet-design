@@ -17,6 +17,7 @@ export * from './navigation/Dropdown/Dropdown'
 export * from './Combobox/Combobox'
 
 export * from './Empty/Empty'
+export * from './Heading/Heading'
 
 // feedback
 export * from './feedback/Modal/Modal'
